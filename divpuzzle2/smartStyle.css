@@ -1,0 +1,100 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+@media screen and (min-width: 767px) {
+}
+@media screen and (max-width: 767px) {
+    .header {
+        width: 300px;
+        height: 100px;
+        background-color: #181d40;
+    }
+    .left {
+        width: 100px;
+        height: 250px;
+        background-color: #87c0a7;
+        float: left;
+    }
+    .rightbox {
+        width: 200px;
+        height: 250px;
+    }
+    .rightbox-top-left1 {
+        width: 125px;
+        height: 50px;
+        background-color: #d7d709;
+        float: left;
+    }
+    .rightbox-top-left2 {
+        width: 125px;
+        height: 100px;
+        background-color: #3692b6;
+        float: left;
+    }
+    .rightbox-top-right1 {
+        width: 75px;
+        height: 150px;
+        background-color: #f79f6e;
+        float: left;
+    }
+    .rightbox-bottom {
+        width: 200px;
+        height: 100px;
+        background-color: #86262a;
+    }
+    .footer {
+        width: 300px;
+        height: 100px;
+        background-color: #d28f35;
+    }
+}
+@media screen and (max-width: 479px) {
+    .header {
+        width: 150px;
+        height: 100px;
+        background-color: #181d40;
+    }
+    .main {
+        width: 150px;
+        height: auto;
+    }
+    .left {
+        width: 150px;
+        height: 100px;
+        background-color: #87c0a7;
+    }
+    .rightbox {
+        width: 150px;
+        height: auto;
+    }
+    .rightbox-top-left1 {
+        width: 150px;
+        height: 50px;
+        background-color: #d7d709;
+        float: left;
+    }
+    .rightbox-top-left2 {
+        width: 150px;
+        height: 100px;
+        background-color: #3692b6;
+        float: left;
+    }
+    .rightbox-top-right1 {
+        width: 150px;
+        height: 150px;
+        background-color: #f79f6e;
+        float: left;
+    }
+    .rightbox-bottom {
+        width: 150px;
+        height: 100px;
+        background-color: #86262a;
+    }
+    .footer {
+        width: 150px;
+        height: 100px;
+        background-color: #d28f35;
+    }
+}
